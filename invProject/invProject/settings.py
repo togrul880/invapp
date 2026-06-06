@@ -120,3 +120,5 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 CRISPY_TEMPLATE_PACK = "bootstarp5"
+
+CSRF_TRUSTED_ORIGINS = ['https://invapp-vea2.onrender.com']
